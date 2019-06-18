@@ -1,0 +1,29 @@
+{
+  "name": "node-red-contrib-acoustics",
+  "version": "1.0.2",
+  "description": "Generation of noise following Gaussian and Extreme Value Distributions depending on the periods of day, evening and night",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "random-js": "2.1.0"
+  },
+  "keywords": [
+    "node-red",
+    "acoustics",
+    "gaussian noise",
+    "sound levels"
+  ],
+  "contributors": [
+    "Ramón Martínez Carreras",
+    "Juan Miguel Navarro Ruiz"
+  ],
+  "license": "Apache-2.0",
+  "node-red": {
+    "nodes": {
+      "gaussian": "gaussian.js",
+      "extreme_value": "extreme_value.js"
+    }
+  }
+}
