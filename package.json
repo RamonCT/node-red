@@ -19,6 +19,14 @@
     "Ramón Martínez Carreras",
     "Juan Miguel Navarro Ruiz"
   ],
+  "bugs": {
+    "url": "https://github.com/RamonCT/node-red-contrib-acoustics/issues"
+  },
+  "homepage": "https://github.com/RamonCT/node-red-contrib-acoustics",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RamonCT/node-red-contrib-acoustics.git"
+  },
   "license": "Apache-2.0",
   "node-red": {
     "nodes": {
